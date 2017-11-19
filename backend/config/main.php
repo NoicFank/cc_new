@@ -56,7 +56,7 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'api\v1\news'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'api/v1/news'],
             ],
         ],
 

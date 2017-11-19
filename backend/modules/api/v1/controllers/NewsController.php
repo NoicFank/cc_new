@@ -8,9 +8,9 @@ class NewsController extends BaseController
 {
     public $modelClass = 'backend\modules\api\v1\models\news\NewsModel';
 
-    public function actionIndex()
-    {
-        return $this->render('index');
-    }
+//    public function actionIndex()
+//    {
+//        return $this->render('index');
+//    }
 
 }

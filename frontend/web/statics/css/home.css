@@ -1,0 +1,115 @@
+/*
+ 首页的样式
+ */
+:root{
+    /*首页的margin比例*/
+    --base-margin-width: 3%;
+    /*首页登录的margin比例*/
+    --base-login-padding-top: 10px;
+    --base-login-padding-left:5px;
+    /*首页新闻模块的margin*/
+    --base-news-margin: 2%;
+    /*首页滚动模块的高度*/
+    --base-rolling-height-1: 350px;
+    --base-rolling-height-2: 300px;
+    --base-rolling-height-3: 250px;
+}
+
+/*重写*/
+.col-lg-2,.col-lg-8,.col-sm-9,.col-sm-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-lg-4{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.row,.form-horizontal,.form-group{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.navbar,.list-group-item,.form-group,.list-group{
+    margin-bottom: 0;
+}
+
+/*自定义*/
+
+/*首页登录模块*/
+.login-form{
+    padding-top: var(--base-login-padding-top);
+    padding-right: var(--base-login-padding-left);
+    padding-left: var(--base-login-padding-left);
+}
+
+.search-form{
+    padding-right: var(--base-login-padding-left);
+    padding-left: var(--base-login-padding-left);
+}
+/*首页content 1*/
+.body-content-1{
+    height: var(--base-rolling-height-1);
+}
+/*首页content 2*/
+.body-content-2{
+    margin-top: 5px;
+}
+/*首页新闻时间显示*/
+.body-home-time{
+    float:right;
+}
+/*首页 content1 中list文本居中*/
+.body-list-text{
+    text-align: center;
+}
+
+.body-height{
+    height: 100%;
+}
+
+.body-height-1{
+    height: 42.855%;
+}
+
+.body-height-2{
+    height: 14.285%;
+}
+
+.body-height-3{
+    height:33.333%;
+}
+
+/*控制首页新闻模块的图标*/
+.body-news-icon{
+    color: rgb(25,62,135);
+    margin-right: 5%;
+    font-size: 18px;
+}
+
+/*首页滚动图属性*/
+.rolling-image{
+   width: 100%;
+   height: var(--base-rolling-height-1) !important;
+}
+
+/*首页新闻block的margin*/
+.body-news-block-margin{
+    margin-bottom: var(--base-news-margin);
+}
+@media only screen and (max-width: 1400px) {
+    .body-content-1{
+        height: var(--base-rolling-height-2);
+    }
+    .rolling-image{
+        height: var(--base-rolling-height-2) !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .body-content-1{
+        height: var(--base-rolling-height-3);
+    }
+    .rolling-image{
+        height: var(--base-rolling-height-3) !important;
+    }
+}

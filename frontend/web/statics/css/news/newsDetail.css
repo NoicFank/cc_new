@@ -1,0 +1,41 @@
+:root{
+/*新闻正文的padding程度*/
+--news-content-padding: 8%;
+}
+
+/*重写*/
+.wrap{
+    min-height: 0;
+}
+
+/*在新闻具体页面让底部悬浮*/
+.footer{
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/*自定义*/
+.important{
+    color: red;
+}
+
+.body-news{
+    text-align: center;
+}
+
+.body-news-detail{
+    text-align: left;
+    padding-left: var(--news-content-padding);
+    padding-right: var(--news-content-padding);
+}
+
+/*用来切分内容部分*/
+.split{
+    height: 1px;
+    background-color: #787878;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

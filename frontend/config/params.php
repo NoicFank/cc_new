@@ -7,5 +7,7 @@ return [
     ],
     'rolling' =>[
         'rolling1' => './statics/images/rollings/rolling1.jpg',
+        'rolling2' => './statics/images/rollings/rolling2.jpg',
+        'rolling3' => './statics/images/rollings/rolling3.jpg',
     ]
 ];

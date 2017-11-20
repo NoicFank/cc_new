@@ -31,7 +31,7 @@ AppAsset::register($this);
     <img class="img-responsive center-block navbar-fixed-top" src= "<?= YII::$app->params['header']['pageHead1'] ?>"/>
     <img class="img-responsive center-block" role="navigation" src= "<?= YII::$app->params['header']['pageHead1'] ?>"/>
     <div class="content">
-    <img class=" img-responsive center-block " src= "<?= YII::$app->params['header']['pageHead2'] ?>"/>
+    <img class=" img-responsive center-block" src= "<?= YII::$app->params['header']['pageHead2'] ?>"/>
     </div>
 </div>
 
